@@ -7,6 +7,26 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		/* Utopian Tree 巩力
+		Scanner s = new Scanner(System.in);
+		
+		int t = s.nextInt();
+		for(int i=0; i<t; ++i)
+		{
+			int a = s.nextInt();
+			int Height = 1;
+		
+			for(int n=1; n<=a; ++n)
+			{
+				if(n%2==0)
+					Height += 1;
+				else
+					Height *= 2; 
+			}
+			System.out.println(Height);
+		}
+		*/
+		
 		/* 按眉积己 劳洒扁
 		int count = 6;
 		int[] arr = new int[count];
