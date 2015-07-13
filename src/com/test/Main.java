@@ -1,15 +1,23 @@
 package com.test;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Action a= new Action("test", "test", "test"); // new Action(); <- 이게 객체생성  () 이게 생성자 
+		/* 객체생성 익히기
+		int count = 6;
+		int[] arr = new int[count];
+		Action[] actionList = new Action[count];
 		
-		System.out.println(a.label);
-		System.out.println(a.time);
+		ArrayList<Action> list = new ArrayList<Action>();
+		
+		
+		//Action a= new Action("test", "test", "test"); // new Action(); <- 이게 객체생성  () 이게 생성자 
+		*/
+
 		
 		/* 사칙연산 분모의 값이 0일때, if문 익히기
 		int a = 5, b= 0;
@@ -128,6 +136,12 @@ public class Main {
 			}
 		*/
 		
+		/* 입력값을 받아서 넣는 방법
+		 Scanner s = new Scanner(System.in);
+		 
+		 int t = s.nextInt();
+		 System.out.println(t);
+		 */
 		
 	}
 }
